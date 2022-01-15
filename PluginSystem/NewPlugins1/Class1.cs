@@ -11,8 +11,8 @@ namespace NewPlugins1
         private string _Name = "Plugin1";
         private string _DisplayName = "Первый плагин";
         private string _Description = "Описание первого плагина";
-        private string _Author = "Dev";
-        private int _Version = 100;
+        private string _Author = "NightWill";
+        private int _Version = 1;
         private IPluginHost _Main;
         public void Visible()
         {
@@ -55,5 +55,4 @@ namespace NewPlugins1
             get { return this._Version; }
         }
     }
-}
 }

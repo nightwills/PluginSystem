@@ -18,5 +18,10 @@ namespace NewPlugins1
             InitializeComponent();
             this._pl = pl;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
