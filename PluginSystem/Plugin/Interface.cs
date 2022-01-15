@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Plugin
+namespace MainInterface
 {
 	public interface IPlugin
 	{

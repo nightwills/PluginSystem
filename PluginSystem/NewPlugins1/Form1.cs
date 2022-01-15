@@ -8,17 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using NewMainInterface;
-namespace PluginSystem
+namespace NewPlugins1
 {
-    public partial class MainWindow : Form, IPluginHost
+    public partial class Form1 : Form
     {
-        public MainWindow()
+        private readonly IPlugin _pl;
+        public Form1(IPlugin pl)
         {
             InitializeComponent();
-        }
-        public bool Register(IPlugin plug)
-        {
-            return true;
+            this._pl = pl;
         }
     }
 }
